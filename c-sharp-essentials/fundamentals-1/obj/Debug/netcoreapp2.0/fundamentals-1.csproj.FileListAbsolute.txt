@@ -1,0 +1,10 @@
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/fundamentals-1/bin/Debug/netcoreapp2.0/fundamentals-1.deps.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/fundamentals-1/bin/Debug/netcoreapp2.0/fundamentals-1.runtimeconfig.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/fundamentals-1/bin/Debug/netcoreapp2.0/fundamentals-1.runtimeconfig.dev.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/fundamentals-1/bin/Debug/netcoreapp2.0/fundamentals-1.dll
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/fundamentals-1/bin/Debug/netcoreapp2.0/fundamentals-1.pdb
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/fundamentals-1/obj/Debug/netcoreapp2.0/fundamentals-1.csproj.CoreCompileInputs.cache
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/fundamentals-1/obj/Debug/netcoreapp2.0/fundamentals-1.AssemblyInfoInputs.cache
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/fundamentals-1/obj/Debug/netcoreapp2.0/fundamentals-1.AssemblyInfo.cs
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/fundamentals-1/obj/Debug/netcoreapp2.0/fundamentals-1.dll
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/fundamentals-1/obj/Debug/netcoreapp2.0/fundamentals-1.pdb
