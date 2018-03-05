@@ -1,0 +1,10 @@
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/puzzles/bin/Debug/netcoreapp2.0/puzzles.deps.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/puzzles/bin/Debug/netcoreapp2.0/puzzles.runtimeconfig.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/puzzles/bin/Debug/netcoreapp2.0/puzzles.runtimeconfig.dev.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/puzzles/bin/Debug/netcoreapp2.0/puzzles.dll
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/puzzles/bin/Debug/netcoreapp2.0/puzzles.pdb
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/puzzles/obj/Debug/netcoreapp2.0/puzzles.csproj.CoreCompileInputs.cache
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/puzzles/obj/Debug/netcoreapp2.0/puzzles.AssemblyInfoInputs.cache
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/puzzles/obj/Debug/netcoreapp2.0/puzzles.AssemblyInfo.cs
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/puzzles/obj/Debug/netcoreapp2.0/puzzles.dll
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/puzzles/obj/Debug/netcoreapp2.0/puzzles.pdb
