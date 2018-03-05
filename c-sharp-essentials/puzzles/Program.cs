@@ -8,18 +8,22 @@ namespace puzzles {
             List<int> randomArray = new List<int>();
             Random rand = new Random();
             int sum = 0;
-            int min = 0;
-            int max = 0;
             for (int i = 0; i < 10; i++) {
                 randomArray.Add(rand.Next(5, 25));
+            }
+            int min = randomArray[0];
+            int max = randomArray[0];
+            for (int i = 0; i < randomArray.Count; i++) {
                 sum += randomArray[i];
                 if (randomArray[i] > max) {
                     max = randomArray[i];
-                } else if (randomArray[i] < min) {
+                }
+                if (randomArray[i] < min) {
                     min = randomArray[i];
                 }
             }
-            Console.WriteLine($"Min: {min}, Max: {max}, Sum: {sum}");
+            randomArray.ForEach(number => Console.WriteLine(number));
+            Console.WriteLine($"Min: {min}\nMax: {max}\nSum: {sum}");
         }
         static void Main(string[] args) {
             randomArray();
