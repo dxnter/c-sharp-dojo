@@ -13,6 +13,13 @@ namespace deck_of_cards {
             deck.Deal();
             deck.Deal();
             deck.Deal();
+
+            Player danny = new Player("Danny");
+            danny.Draw(deck);
+            danny.Draw(deck);
+            danny.Draw(deck);
+
+            danny.ShowHand();
         }
     }
 }

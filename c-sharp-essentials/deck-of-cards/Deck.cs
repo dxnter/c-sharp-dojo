@@ -13,18 +13,17 @@ namespace deck_of_cards {
                 int i = 1;
                 foreach (string stringVal in stringVals) {
                     cards.Add(new Card(suit, stringVal, i));
-                    System.Console.WriteLine($"{stringVal} of {suit}");
                     i++;
                 }
             }
             System.Console.WriteLine("====Deck Generated====\n");
         }
 
-        public Deck Deal() {
+        public Card Deal() {
             Card firstCard = cards[0];
             cards.Remove(firstCard);
-            System.Console.WriteLine($"Dealt a {firstCard.stringVal} of {firstCard.suit}");
-            return this;
+            System.Console.WriteLine($"• Dealt a {firstCard.stringVal} of {firstCard.suit}");
+            return firstCard;
         }
 
         public Deck Reset() {
