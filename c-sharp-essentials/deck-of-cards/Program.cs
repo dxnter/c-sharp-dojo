@@ -3,8 +3,16 @@
 namespace deck_of_cards {
     class Program {
         static void Main(string[] args) {
-            Deck myDeck = new Deck();
-
+            Deck deck = new Deck();
+            deck.Deal();
+            deck.Deal();
+            deck.Deal();
+            deck.Reset();
+            deck.Deal();
+            deck.Shuffle();
+            deck.Deal();
+            deck.Deal();
+            deck.Deal();
         }
     }
 }
