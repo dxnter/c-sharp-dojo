@@ -18,7 +18,8 @@ namespace deck_of_cards {
             danny.Draw(deck);
             danny.Draw(deck);
             danny.Draw(deck);
-
+            danny.ShowHand();
+            danny.Discard(0);
             danny.ShowHand();
         }
     }

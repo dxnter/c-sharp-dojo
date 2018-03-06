@@ -16,7 +16,7 @@ namespace deck_of_cards {
                     i++;
                 }
             }
-            System.Console.WriteLine("====Deck Generated====\n");
+            System.Console.WriteLine("■■■■■ Deck Generated ■■■■■\n");
         }
 
         public Card Deal() {
@@ -35,14 +35,14 @@ namespace deck_of_cards {
                     i++;
                 }
             }
-            System.Console.WriteLine("\n====Deck Reset====\n");
+            System.Console.WriteLine("\n■■■■■ Deck Reset ■■■■■\n");
             return this;
         }
 
         public Deck Shuffle() {
             Random rnd = new Random();
             cards = cards.OrderBy(x => rnd.Next()).ToList();
-            System.Console.WriteLine("\n====Deck Shuffled====\n");
+            System.Console.WriteLine("\n■■■■■ Deck Shuffled ■■■■■\n");
             return this;
         }
     }

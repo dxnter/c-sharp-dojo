@@ -15,12 +15,23 @@ namespace deck_of_cards {
             return cardDrawn;
         }
 
-        public void ShowHand() {
-            System.Console.WriteLine($"===={name}'s Hand====");
-            foreach (Card card in hand) {
-                System.Console.WriteLine($"   → {card.stringVal} of {card.suit}");
+        public Card Discard(int index) {
+            if (hand.Count > index && hand[index] != null) {
+                Card card = hand[index];
+                hand.Remove(card);
+                System.Console.WriteLine($"\n☑️   Removed {card.stringVal} of {card.suit} from {name}'s hand");
+                return card;
             }
-            System.Console.WriteLine("================");
+            System.Console.WriteLine("❗❗❗  CARD NOT IN HAND ❗❗❗");
+            return null;
+        }
+
+        public void ShowHand() {
+            System.Console.WriteLine($"\n■■■■ {name}'s ✋  ■■■■");
+            foreach (Card card in hand) {
+                System.Console.WriteLine($"→ {card.stringVal} of {card.suit}");
+            }
+            System.Console.WriteLine("■■■■■■■■■■■■■■■■■■■■■■");
         }
     }
 }
