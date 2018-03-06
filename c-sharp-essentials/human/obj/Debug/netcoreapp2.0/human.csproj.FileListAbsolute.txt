@@ -1,0 +1,10 @@
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/human/bin/Debug/netcoreapp2.0/human.deps.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/human/bin/Debug/netcoreapp2.0/human.runtimeconfig.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/human/bin/Debug/netcoreapp2.0/human.runtimeconfig.dev.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/human/bin/Debug/netcoreapp2.0/human.dll
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/human/bin/Debug/netcoreapp2.0/human.pdb
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/human/obj/Debug/netcoreapp2.0/human.csproj.CoreCompileInputs.cache
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/human/obj/Debug/netcoreapp2.0/human.AssemblyInfoInputs.cache
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/human/obj/Debug/netcoreapp2.0/human.AssemblyInfo.cs
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/human/obj/Debug/netcoreapp2.0/human.dll
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/human/obj/Debug/netcoreapp2.0/human.pdb
