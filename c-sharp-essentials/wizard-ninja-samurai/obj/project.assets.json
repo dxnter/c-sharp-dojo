@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/wizard-ninja-samurai/wizard-ninja-samurai.csproj",
-      "projectName": "wizard-ninja-samurai",
-      "projectPath": "/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/wizard-ninja-samurai/wizard-ninja-samurai.csproj",
+      "projectUniqueName": "/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/human/human.csproj",
+      "projectName": "human",
+      "projectPath": "/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/human/human.csproj",
       "packagesPath": "/Users/danielfoster/.nuget/packages/",
-      "outputPath": "/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/wizard-ninja-samurai/obj/",
+      "outputPath": "/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/c-sharp-essentials/human/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

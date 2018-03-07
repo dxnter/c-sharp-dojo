@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/wizard-ninja-samurai.csproj"
+                "${workspaceFolder}/human.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
