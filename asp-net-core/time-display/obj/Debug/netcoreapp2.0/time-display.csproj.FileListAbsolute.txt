@@ -1,0 +1,10 @@
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/time-display/bin/Debug/netcoreapp2.0/time-display.deps.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/time-display/bin/Debug/netcoreapp2.0/time-display.runtimeconfig.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/time-display/bin/Debug/netcoreapp2.0/time-display.runtimeconfig.dev.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/time-display/bin/Debug/netcoreapp2.0/time-display.dll
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/time-display/bin/Debug/netcoreapp2.0/time-display.pdb
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/time-display/obj/Debug/netcoreapp2.0/time-display.csproj.CoreCompileInputs.cache
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/time-display/obj/Debug/netcoreapp2.0/time-display.AssemblyInfoInputs.cache
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/time-display/obj/Debug/netcoreapp2.0/time-display.AssemblyInfo.cs
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/time-display/obj/Debug/netcoreapp2.0/time-display.dll
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/time-display/obj/Debug/netcoreapp2.0/time-display.pdb
