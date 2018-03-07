@@ -29,7 +29,7 @@ namespace human
 
             sammy.Meditate();
 
-            int count = Ninja.HowMany();
+            Ninja.HowMany();
         }
     }
 }
