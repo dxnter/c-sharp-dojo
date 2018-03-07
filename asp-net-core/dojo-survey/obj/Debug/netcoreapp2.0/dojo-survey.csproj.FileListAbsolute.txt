@@ -1,0 +1,10 @@
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/dojo-survey/bin/Debug/netcoreapp2.0/dojo-survey.deps.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/dojo-survey/bin/Debug/netcoreapp2.0/dojo-survey.runtimeconfig.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/dojo-survey/bin/Debug/netcoreapp2.0/dojo-survey.runtimeconfig.dev.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/dojo-survey/bin/Debug/netcoreapp2.0/dojo-survey.dll
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/dojo-survey/bin/Debug/netcoreapp2.0/dojo-survey.pdb
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/dojo-survey/obj/Debug/netcoreapp2.0/dojo-survey.csproj.CoreCompileInputs.cache
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/dojo-survey/obj/Debug/netcoreapp2.0/dojo-survey.AssemblyInfoInputs.cache
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/dojo-survey/obj/Debug/netcoreapp2.0/dojo-survey.AssemblyInfo.cs
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/dojo-survey/obj/Debug/netcoreapp2.0/dojo-survey.dll
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/dojo-survey/obj/Debug/netcoreapp2.0/dojo-survey.pdb
