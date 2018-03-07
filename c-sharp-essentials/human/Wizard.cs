@@ -15,7 +15,7 @@ namespace human {
 
         public void Heal() {
             health += (intelligence * 10);
-            System.Console.WriteLine($"\n→ [{health} HP] {name} was healed for {intelligence * 10} points");
+            System.Console.WriteLine($"\n→ [{health} HP] ({name}) was healed for {intelligence * 10} points");
         }
 
         public void Fireball(Human human) {
