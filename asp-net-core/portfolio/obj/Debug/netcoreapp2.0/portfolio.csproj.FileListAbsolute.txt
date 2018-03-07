@@ -1,0 +1,10 @@
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/portfolio/bin/Debug/netcoreapp2.0/portfolio.deps.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/portfolio/bin/Debug/netcoreapp2.0/portfolio.runtimeconfig.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/portfolio/bin/Debug/netcoreapp2.0/portfolio.runtimeconfig.dev.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/portfolio/bin/Debug/netcoreapp2.0/portfolio.dll
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/portfolio/bin/Debug/netcoreapp2.0/portfolio.pdb
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/portfolio/obj/Debug/netcoreapp2.0/portfolio.csproj.CoreCompileInputs.cache
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/portfolio/obj/Debug/netcoreapp2.0/portfolio.AssemblyInfoInputs.cache
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/portfolio/obj/Debug/netcoreapp2.0/portfolio.AssemblyInfo.cs
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/portfolio/obj/Debug/netcoreapp2.0/portfolio.dll
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/portfolio/obj/Debug/netcoreapp2.0/portfolio.pdb

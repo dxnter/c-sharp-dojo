@@ -1,0 +1,20 @@
+.container {
+  margin-top: 75px;
+}
+.nav {
+  padding-bottom: 20px;
+}
+
+#avatar {
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.angular {
+  padding: 20px;
+}
