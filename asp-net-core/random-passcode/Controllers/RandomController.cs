@@ -6,9 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace random_passcode.Controllers {
     public class RandomController : Controller {
-        public int? counter = 0;
+        public int counter = 0;
         public string passcode;
-        public int? temp;
         private static Random random = new Random();
         public static string RandomString(int length) {
             const string chars = "ABCDEFGHOJKLMNOPQRSTUVWXYZ0123456789";
@@ -26,8 +25,9 @@ namespace random_passcode.Controllers {
         [Route("/generate")]
         public IActionResult Generate() {
             counter++;
+            HttpContext.Session.SetInt32("counter", counter);
             ViewBag.passcode = RandomString(25);
-            ViewBag.counter = counter;
+            ViewBag.counter = HttpContext.Session.GetInt32("counter");
             return View("index");
         }
     }
