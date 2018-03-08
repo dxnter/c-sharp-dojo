@@ -1,0 +1,10 @@
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/random-passcode/bin/Debug/netcoreapp2.0/random-passcode.deps.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/random-passcode/bin/Debug/netcoreapp2.0/random-passcode.runtimeconfig.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/random-passcode/bin/Debug/netcoreapp2.0/random-passcode.runtimeconfig.dev.json
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/random-passcode/bin/Debug/netcoreapp2.0/random-passcode.dll
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/random-passcode/bin/Debug/netcoreapp2.0/random-passcode.pdb
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/random-passcode/obj/Debug/netcoreapp2.0/random-passcode.csproj.CoreCompileInputs.cache
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/random-passcode/obj/Debug/netcoreapp2.0/random-passcode.AssemblyInfoInputs.cache
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/random-passcode/obj/Debug/netcoreapp2.0/random-passcode.AssemblyInfo.cs
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/random-passcode/obj/Debug/netcoreapp2.0/random-passcode.dll
+/Users/danielfoster/Library/Mobile Documents/com~apple~CloudDocs/Programming/dojo/c#/asp-net-core/random-passcode/obj/Debug/netcoreapp2.0/random-passcode.pdb
