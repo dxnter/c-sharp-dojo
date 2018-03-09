@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dojodachi</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="~/css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row justify-content-center text-center" id="statContainer">
+      <div class="col-6" id="statItems">
+        <span class="lead">Fullness:
+          <span key="fullness" class="stat-value">@TempData["fullness"]</span>
+        </span>
+        <span class="lead">Happiness:
+          <span key="happiness" class="stat-value">@TempData["happiness"]</span>
+        </span>
+        <span class="lead">Meals:
+          <span key="meals" class="stat-value">@TempData["meals"]</span>
+        </span>
+        <span class="lead">Energy:
+          <span key="energy" class="stat-value">@TempData["energy"]</span>
+        </span>
+      </div>
+    </div>
+    <div class="row justify-content-center text-center">
+      <div class="col-6">
+        <div class="card">
+          <div class="card-body">
+            <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Cartoon_Border_Collie.png" alt="">
+            @{
+                string error = TempData["Error"] as string;
+                string message = TempData["Message"] as string;
+                string winMessage = TempData["WinMessage"] as string;
+                string lossMessage = TempData["lossMessage"] as string;
+                if (error != null) {
+                  <div class="alert alert-danger" role="alert">@error</div>
+                }
+
+                if (message != null && winMessage == null && lossMessage == null) {
+                  <div class="alert alert-primary" role="alert">@message</div>
+                }
+
+                if (winMessage != null) {
+                  <div class="alert alert-success" role="alert">@winMessage</div>
+                }
+
+                if (lossMessage != null) {
+                  <div class="alert alert-danger" role="alert">@lossMessage</div>
+                }
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="playerButtons" class="row text-center justify-content-center">
+    @{
+      string win = TempData["Win"] as string;
+      string loss = TempData["Loss"] as string;
+      if (win != "True" && loss != "True") {
+          <a href="Feed" class="btn btn-lg btn-outline-primary">Feed</a>
+          <a href="Play" class="btn btn-lg btn-outline-primary">Play</a>
+          <a href="Work" class="btn btn-lg btn-outline-primary">Work</a>
+          <a href="Sleep" class="btn btn-lg btn-outline-primary">Sleep</a>
+      } else {
+          <a href="Restart" class="btn btn-lg btn-info">Restart?</a>
+      }
+    }
+      </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

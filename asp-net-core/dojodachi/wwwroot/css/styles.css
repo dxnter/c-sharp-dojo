@@ -1,0 +1,33 @@
+.container {
+  margin-top: 10em;
+}
+
+#statContainer {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#statItems>span {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 18px;
+  color: #565555;
+}
+
+.stat-value {
+  font-weight: bolder;
+  color: #000;
+}
+
+.img-fluid {
+  padding: 20px;
+}
+
+#playerButtons {
+  margin-top: 20px;
+}
+
+#playerButtons>a {
+  margin-right: 20px;
+  margin-left: 20px;
+}
