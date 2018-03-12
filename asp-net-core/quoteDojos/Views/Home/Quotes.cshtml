@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "All Quotes";
+}
+<div class="container">
+  <div class="row text-center justify-content-center">
+    <div class="col">
+      <h1>Here are the awesome quotes!</h1>
+      <ul>
+        @{
+          foreach (var quotes in ViewBag.quotes){
+            <div class="panel panel-default">
+            <div class="panel-heading">@quotes["author"]</div>
+            <div class="panel-body">
+            @quotes["quote"]
+            <br><small>@quotes["posted_at"]</small>
+            </div>
+            </div>
+          }
+        }
+      </ul>
+    </div>
+  </div>
+</div>
