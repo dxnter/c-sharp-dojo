@@ -12,7 +12,7 @@ namespace simple_crud {
             var users = DbConnector.Query("SELECT * FROM users");
             foreach (var user in users) {
                 foreach (var prop in user) {
-                    System.Console.WriteLine(prop);
+                    System.Console.WriteLine($"{prop.Key}: {prop.Value}");
                 }
             }
         }
