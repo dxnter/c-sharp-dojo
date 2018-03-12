@@ -1,0 +1,10 @@
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/simple-crud/bin/Debug/netcoreapp2.0/simple-crud.deps.json
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/simple-crud/bin/Debug/netcoreapp2.0/simple-crud.runtimeconfig.json
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/simple-crud/bin/Debug/netcoreapp2.0/simple-crud.runtimeconfig.dev.json
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/simple-crud/bin/Debug/netcoreapp2.0/simple-crud.dll
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/simple-crud/bin/Debug/netcoreapp2.0/simple-crud.pdb
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/simple-crud/obj/Debug/netcoreapp2.0/simple-crud.csproj.CoreCompileInputs.cache
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/simple-crud/obj/Debug/netcoreapp2.0/simple-crud.AssemblyInfoInputs.cache
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/simple-crud/obj/Debug/netcoreapp2.0/simple-crud.AssemblyInfo.cs
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/simple-crud/obj/Debug/netcoreapp2.0/simple-crud.dll
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/simple-crud/obj/Debug/netcoreapp2.0/simple-crud.pdb
