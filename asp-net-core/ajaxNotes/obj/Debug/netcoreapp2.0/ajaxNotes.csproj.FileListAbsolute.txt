@@ -1,0 +1,10 @@
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/ajaxNotes/bin/Debug/netcoreapp2.0/ajaxNotes.deps.json
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/ajaxNotes/bin/Debug/netcoreapp2.0/ajaxNotes.runtimeconfig.json
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/ajaxNotes/bin/Debug/netcoreapp2.0/ajaxNotes.runtimeconfig.dev.json
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/ajaxNotes/bin/Debug/netcoreapp2.0/ajaxNotes.dll
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/ajaxNotes/bin/Debug/netcoreapp2.0/ajaxNotes.pdb
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/ajaxNotes/obj/Debug/netcoreapp2.0/ajaxNotes.csproj.CoreCompileInputs.cache
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/ajaxNotes/obj/Debug/netcoreapp2.0/ajaxNotes.AssemblyInfoInputs.cache
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/ajaxNotes/obj/Debug/netcoreapp2.0/ajaxNotes.AssemblyInfo.cs
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/ajaxNotes/obj/Debug/netcoreapp2.0/ajaxNotes.dll
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/ajaxNotes/obj/Debug/netcoreapp2.0/ajaxNotes.pdb

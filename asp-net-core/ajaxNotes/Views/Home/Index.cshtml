@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "AJAX Notes";
+}
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<div class="container">
+    @{
+        if (TempData["invalidInput"] != null) {
+            string invalidInput = TempData["invalidInput"] as string;
+
+            <div class="alert alert-danger text-center" role="alert">
+                @invalidInput
+            </div>
+        }
+    }
+    <div id="grid">
+        @{
+            if (TempData["notes"] != null) {
+            foreach (var note in TempData["notes"] as List<Dictionary<string, object>>){
+            <div data-id="@note["id"]" class="note animated bounceInDown">
+                <h1 class="title-text">@note["title"]</h1>
+                <p class="note-text">@note["note"]</p>
+                <a class="delete-text" href="Delete/@note["id"]">×</a>
+            </div>
+            }
+            }
+        }
+    </div>
+    <hr>
+    <div class="row justify-content-center">
+        <div class="col-4">
+            <form action="New" method="POST">
+                <div class="form-group">
+                    <p>Title</p>
+                    <input name="Title" id="Title" type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <p>Note</p>
+                    <textarea name="Note" id="Note" class="form-control" rows="3"></textarea required>
+                </div>
+                <input type="submit" value="Add Note" class="btn btn-lg btn-primary">
+            </form>
+        </div>
+    </div>
+</div>
