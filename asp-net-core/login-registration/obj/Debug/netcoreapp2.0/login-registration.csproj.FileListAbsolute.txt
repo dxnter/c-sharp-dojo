@@ -1,0 +1,10 @@
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/login-registration/bin/Debug/netcoreapp2.0/login-registration.deps.json
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/login-registration/bin/Debug/netcoreapp2.0/login-registration.runtimeconfig.json
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/login-registration/bin/Debug/netcoreapp2.0/login-registration.runtimeconfig.dev.json
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/login-registration/bin/Debug/netcoreapp2.0/login-registration.dll
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/login-registration/bin/Debug/netcoreapp2.0/login-registration.pdb
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/login-registration/obj/Debug/netcoreapp2.0/login-registration.csproj.CoreCompileInputs.cache
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/login-registration/obj/Debug/netcoreapp2.0/login-registration.AssemblyInfoInputs.cache
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/login-registration/obj/Debug/netcoreapp2.0/login-registration.AssemblyInfo.cs
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/login-registration/obj/Debug/netcoreapp2.0/login-registration.dll
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/login-registration/obj/Debug/netcoreapp2.0/login-registration.pdb

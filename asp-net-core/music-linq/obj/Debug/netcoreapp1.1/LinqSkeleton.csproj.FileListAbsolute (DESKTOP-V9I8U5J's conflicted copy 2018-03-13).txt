@@ -1,0 +1,5 @@
+C:\Users\Mitte\Dropbox\Programming\dojo\c#\asp-net-core\music-linq\obj\Debug\netcoreapp1.1\LinqSkeleton.csproj.CoreCompileInputs.cache
+C:\Users\Mitte\Dropbox\Programming\dojo\c#\asp-net-core\music-linq\obj\Debug\netcoreapp1.1\LinqSkeleton.AssemblyInfoInputs.cache
+C:\Users\Mitte\Dropbox\Programming\dojo\c#\asp-net-core\music-linq\obj\Debug\netcoreapp1.1\LinqSkeleton.AssemblyInfo.cs
+C:\Users\Mitte\Dropbox\Programming\dojo\c#\asp-net-core\music-linq\obj\Debug\netcoreapp1.1\LinqSkeleton.dll
+C:\Users\Mitte\Dropbox\Programming\dojo\c#\asp-net-core\music-linq\obj\Debug\netcoreapp1.1\LinqSkeleton.pdb
