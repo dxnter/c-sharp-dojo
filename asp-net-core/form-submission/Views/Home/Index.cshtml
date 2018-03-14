@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container">
+    <h3 class="text-center">Enter your information</h3>
+    <div class="row justify-content-center" style="margin: 0 auto">
+        <div class="col-6">
+            <div class="card">
+                <div class="card-body">
+                    <form action="Register" method="POST">
+                        <div class="form-row">
+                            <div class="form-group col-md-5">
+                                <label for="FirstName">First Name</label>
+                                <input name="FirstName" id="FirstName" type="text" class="form-control" required autocomplete="off">
+                            </div>
+                            <div class="form-group col-md-5">
+                                <label for="LastName">Last Name</label>
+                                <input name="LastName" id="LastName" type="text" class="form-control" required autocomplete="off">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="Age">Age</label>
+                                <input name="Age" id="Age" type="text" class="form-control" required autocomplete="off">
+                            </div>
+                        </div>
+                            <div class="form-group">
+                                <label for="Email">Email</label>
+                                <input name="Email" type="email" class="form-control" id="Email" required autocomplete="off">
+                            </div>
+                            <div class="form-group">
+                                <label for="Password">Password</label>
+                                <input name="Password" type="password" class="form-control" id="Password" required autocomplete="off">
+                            </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

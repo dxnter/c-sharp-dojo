@@ -1,0 +1,10 @@
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/form-submission/bin/Debug/netcoreapp2.0/form-submission.deps.json
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/form-submission/bin/Debug/netcoreapp2.0/form-submission.runtimeconfig.json
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/form-submission/bin/Debug/netcoreapp2.0/form-submission.runtimeconfig.dev.json
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/form-submission/bin/Debug/netcoreapp2.0/form-submission.dll
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/form-submission/bin/Debug/netcoreapp2.0/form-submission.pdb
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/form-submission/obj/Debug/netcoreapp2.0/form-submission.csproj.CoreCompileInputs.cache
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/form-submission/obj/Debug/netcoreapp2.0/form-submission.AssemblyInfoInputs.cache
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/form-submission/obj/Debug/netcoreapp2.0/form-submission.AssemblyInfo.cs
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/form-submission/obj/Debug/netcoreapp2.0/form-submission.dll
+/Users/danielfoster/Dropbox/Programming/dojo/c#/asp-net-core/form-submission/obj/Debug/netcoreapp2.0/form-submission.pdb

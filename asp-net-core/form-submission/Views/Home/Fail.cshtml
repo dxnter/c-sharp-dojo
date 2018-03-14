@@ -1,0 +1,21 @@
+<div class="container">
+  <header class="text-center">
+    <a href="/" class="btn btn-outline-primary" style="margin-bottom: 20px">Home</a>
+  </header>
+  <div class="row justify-content-center">
+    <div class="col-6">
+    @{
+        foreach(var error in ViewBag.errors)
+        {
+            //If there are any errors for a field...
+            if(@error.Errors.Count > 0)
+            {
+                <div class="alert alert-danger">
+                <p>@error.Errors[0].ErrorMessage</p>
+                </div>
+            }
+       }
+       }
+    </div>
+  </div>
+</div>
