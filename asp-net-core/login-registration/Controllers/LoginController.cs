@@ -21,8 +21,11 @@ namespace login_registration.Controllers {
             string userAttempting = $"SELECT * FROM users WHERE Email = '{user.Email}'";
             var matchedUser = DbConnector.Query(userAttempting);
             if (matchedUser.Count > 0) {
-                System.Console.WriteLine("User exists");
-                return RedirectToAction("LoginSuccess");
+                string comparePasswordQuery = $"SELECT * FROM users WHERE Password = '{user.Password}'";
+                var matchedPassword = DbConnector.Query(comparePasswordQuery);
+                if (matchedPassword.Count > 0) {
+                    return RedirectToAction("LoginSuccess");
+                }
             }
             return Redirect("/login");
         }
