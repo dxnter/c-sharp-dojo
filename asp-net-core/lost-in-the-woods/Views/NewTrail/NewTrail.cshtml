@@ -2,8 +2,10 @@
 
 <div class="container">
   <div class="row">
-    <div class="col">
+    <div class="col-9">
       <h1 class="display-4 home__header-text">Add a New Trail</h1>
+    </div>
+    <div class="col-3">
       <a href="/" class="nav-link inline">Home</a>
     </div>
   </div>
@@ -13,22 +15,22 @@
         <div class="form-group">
           <label>Trail Name</label>
           <input asp-for="TrailName" class="form-control">
-          <span class="text-muted" asp-validation-for="TrailName"></span>
+          <span class="text-danger" asp-validation-for="TrailName"></span>
         </div>
         <div class="form-group">
           <label>Description</label>
           <textarea rows="3" asp-for="Description" class="form-control"></textarea>
-          <span class="text-muted" asp-validation-for="Description"></span>
+          <span class="text-danger" asp-validation-for="Description"></span>
         </div>
         <div class="form-group">
-          <label>Trail Length</label>
+          <label>Trail Length <small>(miles)</small></label>
           <input asp-for="TrailLength" class="form-control">
-          <span class="text-muted" asp-validation-for="TrailLength"></span>
+          <span class="text-danger" asp-validation-for="TrailLength"></span>
         </div>
         <div class="form-group">
-          <label>Elevation</label>
+          <label>Elevation <small>(feet)</small></label>
           <input asp-for="Elevation" class="form-control">
-          <span class="text-muted" asp-validation-for="Elevation"></span>
+          <span class="text-danger" asp-validation-for="Elevation"></span>
         </div>
         <button type="submit" class="btn btn-primary btn-lg float-right">Add</button>
       </form>

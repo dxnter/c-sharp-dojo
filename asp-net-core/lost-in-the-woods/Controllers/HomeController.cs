@@ -17,5 +17,12 @@ namespace lost_in_the_woods.Controllers {
             ViewBag.Trails = trailFactory.FindAll();
             return View();
         }
+
+        [HttpGet]
+        [Route("delete/{id}")]
+        public IActionResult Delete(int id) {
+            trailFactory.Delete(id);
+            return RedirectToAction("Index", "Home");
+        }
     }
 }

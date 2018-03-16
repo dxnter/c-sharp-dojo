@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col">
       <h1 class="display-4 home__header-text">Lost In The Woods</h1>
-      <span class="lead">List of hiking trails</span>
+      <p class="lead ">Local hiking trails</p>
     </div>
   </div>
   <div class="row home__table-container">
@@ -10,17 +10,19 @@
       <table class="table table-striped border">
         <thead>
           <tr>
-            <th scope="col">Trail Name</th>
-            <th scope="col">Trail Length</th>
-            <th scope="col">Elevation Change</th>
+            <th>Trail Name</th>
+            <th>Trail Length</th>
+            <th>Elevation Change</th>
+            <th>Actions</th>
           </tr>
         </thead>
         <tbody>
           @foreach(var trail in ViewBag.Trails) {
             <tr>
               <td><a href="show/@trail.Id">@trail.TrailName</a></td>
-              <td>@trail.TrailLength miles</td>
-              <td>@trail.Elevation feet</td>
+              <td>@trail.TrailLength <small><span class="text-muted">miles</span></small></td>
+              <td>@trail.Elevation <small><span class="text-muted">feet</span></small></td>
+              <td><a class="btn btn-outline-danger" href="delete/@trail.Id">Delete</a></td>
             </tr>
           }
         </tbody>

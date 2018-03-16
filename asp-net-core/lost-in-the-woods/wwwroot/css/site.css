@@ -13,7 +13,6 @@ textarea {
 }
 .home__header-text {
     display: inline;
-    margin-right: 450px;
 }
 
 .home__table-container {
@@ -31,9 +30,6 @@ textarea {
 
 .create__form-container {
     margin-top: 100px;
-}
-.text-muted {
-    color: tomato !important;
 }
 
 .card-header {
