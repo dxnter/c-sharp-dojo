@@ -1,4 +1,7 @@
-﻿<div class="container">
+﻿@model league.Models.Ninja
+
+
+<div class="container">
   <div class="row justify-content-center">
     <div class="col-5">
       <h1 class="pb-3">Registered Ninjas<hr/></h1>
@@ -31,15 +34,15 @@
     </div>
     <div class="col-5">
        <h1 class="pb-3">Register A Ninja<hr/></h1>
-      <form class="card">
+      <form class="card" app-controller="Home" asp-action="Create" method="POST">
         <div class="card-body">
           <div class="form-group">
-            <label for="NinjaName">Ninjas Name</label>
-            <input name="NinjaName" type="text" class="form-control col-5">
+            <label for="name">Ninjas Name</label>
+            <input asp-for="name" id="name" type="text" class="form-control col-5">
           </div>
           <div class="form-group">
-            <label for="NinjaLevel">Ninja Level (1-10)</label>
-            <select name="NinjaLevel" class="form-control col-2">
+            <label for="level">Ninja Level (1-10)</label>
+            <select asp-for="level" id="level" class="form-control col-2">
               <option>1</option>
               <option>2</option>
               <option>3</option>
@@ -53,16 +56,16 @@
             </select>
           </div>
           <div class="form-group">
-            <label for="AssignedDojo">Assigned Dojo</label>
-            <select name="AssignedDojo" class="form-control col-4">
+            <label for="dojo">Assigned Dojo</label>
+            <select asp-for="dojo" id="dojo" class="form-control col-4">
               <option>Rouge</option>
               <option>Chicago</option>
             </select>
             <a href="/dojos" class="text-primary mt-3">Add Dojo</a>
           </div>
           <div class="form-group">
-            <label for="Description">Description <em>(optional)</em></label>
-            <textarea class="form-control col-8" rows="3"></textarea>
+            <label for="description">Description <em>(optional)</em></label>
+            <textarea asp-for="description" id="description" class="form-control col-8" rows="3"></textarea>
           </div>
           <button class="btn btn-lg btn-primary">Add</button>
           </div>
