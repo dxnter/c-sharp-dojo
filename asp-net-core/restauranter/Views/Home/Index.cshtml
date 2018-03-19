@@ -1,0 +1,41 @@
+﻿@model restauranter.Models.Review
+
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-4">
+      <h2>New Review</h2>
+      <form asp-controller="Home" asp-action="CreateReview" method="POST">
+         <div class="form-row">
+          <div class="form-group col-md-10">
+            <label for="Name">Reviewer Name</label>
+            <input asp-for="Name" type="text" class="form-control">
+          </div>
+          <div class="form-group col-md-2">
+            <label for="Stars">Rating</label>
+            <select asp-for="Stars" class="form-control">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="RestaurantName">Restaurant Name</label>
+          <input asp-for="Restaurant" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="Review">Review</label>
+          <textarea asp-for="ReviewText" class="form-control" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <input asp-for="VisitDate" max='@ViewBag.maxDate' type="date" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary float-right">Submit</button>
+        <a href="/reviews" class="nav-link">View Reviews</a>
+      </form>
+    </div>
+  </div>
+</div>
+

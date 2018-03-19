@@ -1,0 +1,27 @@
+@model restauranter.Models.Review
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <a href="/" class="nav-link">Back</a>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col" id="grid">
+      @foreach(var review in ViewBag.Reviews) {
+          <div class="card">
+          <div class="card-header">
+            Review for @review.Restaurant • <span class="badge badge-pill badge-success">@review.Stars stars</span>
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>@review.ReviewText</p>
+              <footer class="blockquote-footer">@review.Name on <cite title="Source Title">@review.VisitDate</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</div>
