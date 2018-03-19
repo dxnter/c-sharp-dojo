@@ -23,10 +23,20 @@ namespace restauranter.Controllers {
 
         [HttpPost]
         [Route("postReview")]
-        public IActionResult CreateReview(Review newReview) {
-            _context.Add(newReview);
-            _context.SaveChanges();
-            return RedirectToAction("AllReviews");
+        public IActionResult CreateReview(ReviewViewModel model) {
+            if (ModelState.IsValid) {
+                Review newReview = new Review {
+                    Name = model.Name,
+                        Restaurant = model.Restaurant,
+                        ReviewText = model.ReviewText,
+                        VisitDate = model.VisitDate,
+                        Stars = model.Stars
+                }
+                _context.Add(newReview);
+                _context.SaveChanges();
+                return RedirectToAction("AllReviews");
+            }
+            return Redirect("/");
         }
 
         [HttpGet]
