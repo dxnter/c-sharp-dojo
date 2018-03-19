@@ -17,7 +17,6 @@ namespace restauranter.Controllers {
         [HttpGet]
         [Route("")]
         public IActionResult Index() {
-            System.Console.WriteLine(ViewBag.maxDate);
             return View();
         }
 
@@ -27,11 +26,11 @@ namespace restauranter.Controllers {
             if (ModelState.IsValid) {
                 Review newReview = new Review {
                     Name = model.Name,
-                        Restaurant = model.Restaurant,
-                        ReviewText = model.ReviewText,
-                        VisitDate = model.VisitDate,
-                        Stars = model.Stars
-                }
+                    Restaurant = model.Restaurant,
+                    ReviewText = model.ReviewText,
+                    VisitDate = model.VisitDate,
+                    Stars = model.Stars
+                };
                 _context.Add(newReview);
                 _context.SaveChanges();
                 return RedirectToAction("AllReviews");
