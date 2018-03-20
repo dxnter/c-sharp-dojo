@@ -1,0 +1,10 @@
+/Users/danielfoster/Documents/Code/dojo/c#/asp-net-core/bankAccount/bin/Debug/netcoreapp2.0/bankAccount.deps.json
+/Users/danielfoster/Documents/Code/dojo/c#/asp-net-core/bankAccount/bin/Debug/netcoreapp2.0/bankAccount.runtimeconfig.json
+/Users/danielfoster/Documents/Code/dojo/c#/asp-net-core/bankAccount/bin/Debug/netcoreapp2.0/bankAccount.runtimeconfig.dev.json
+/Users/danielfoster/Documents/Code/dojo/c#/asp-net-core/bankAccount/bin/Debug/netcoreapp2.0/bankAccount.dll
+/Users/danielfoster/Documents/Code/dojo/c#/asp-net-core/bankAccount/bin/Debug/netcoreapp2.0/bankAccount.pdb
+/Users/danielfoster/Documents/Code/dojo/c#/asp-net-core/bankAccount/obj/Debug/netcoreapp2.0/bankAccount.csproj.CoreCompileInputs.cache
+/Users/danielfoster/Documents/Code/dojo/c#/asp-net-core/bankAccount/obj/Debug/netcoreapp2.0/bankAccount.AssemblyInfoInputs.cache
+/Users/danielfoster/Documents/Code/dojo/c#/asp-net-core/bankAccount/obj/Debug/netcoreapp2.0/bankAccount.AssemblyInfo.cs
+/Users/danielfoster/Documents/Code/dojo/c#/asp-net-core/bankAccount/obj/Debug/netcoreapp2.0/bankAccount.dll
+/Users/danielfoster/Documents/Code/dojo/c#/asp-net-core/bankAccount/obj/Debug/netcoreapp2.0/bankAccount.pdb
