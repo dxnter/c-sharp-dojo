@@ -1,20 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Pseudocoins</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <!-- Header !-->
+<!-- Header !-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
       <svg viewBox="0 0 369 48" width="75%" height="50%">
         <defs id="SvgjsDefs1069"></defs>
         <g id="main_text" rel="mainfill" name="main_text" feature="main_text" xmlns:name="mainText_mainfill" groupname="main_text"
@@ -33,20 +19,20 @@
 
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">
+        <li class="nav-item">
+          <a class="nav-link" href="/">
             <i class="fas fa-home"></i> Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="/coins">
             <i class="fas fa-dollar-sign"></i> Coins</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="/orders">
             <i class="fas fa-book"></i> Order Book</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
+        <li class="nav-item active">
+          <a class="nav-link" href="/accounts">
             <i class="fas fa-users"></i> Accounts</a>
         </li>
       </ul>
@@ -58,167 +44,57 @@
     </div>
   </nav>
   <div class="container">
-
-    <!-- Card Deck !-->
-    <div class="row">
-      <div class="card-deck text-center mx-auto">
+    <div class="row justify-content-center">
+      <div class="col-3">
         <div class="card">
           <div class="card-body">
-            <img src="../wwwroot/images/btc.png">
+            <h5 class="card-title">
+            <i class="fas fa-user"></i> Open New Account</h5>
+            <!-- New Account Form -->
+            <form class="form-inline">
+              <input type="text" class="form-control mb-2 mr-sm-2" id="Name" placeholder="Full Name" autocomplete="off">
+              <button type="submit" class="btn btn-primary mb-2">Add</button>
+            </form>
           </div>
-          <h5 class="card-title">Bitcoin</h5>
-          <h6 class="card-subtitle text-muted">BTC</h6>
-          <p class="lead text-success">$8,995.15</p>
-          <p class="text-muted">4 left</p>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <img src="../wwwroot/images/eth.png">
-          </div>
-          <h5 class="card-title">Ethereum</h5>
-          <h6 class="card-subtitle text-muted">ETH</h6>
-          <p class="lead text-success">$562.21</p>
-          <p class="text-muted">23 left</p>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <img src="../wwwroot/images/omg.png">
-          </div>
-          <h5 class="card-title">OmiseGO</h5>
-          <h6 class="card-subtitle text-muted">OMG</h6>
-          <p class="lead text-success">$12.36</p>
-          <p class="text-muted">244 left</p>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <img src="../wwwroot/images/ada.png">
-          </div>
-          <h5 class="card-title">Cardano</h5>
-          <h6 class="card-subtitle text-muted">ADA</h6>
-          <p class="lead text-success">$0.214</p>
-          <p class="text-muted">5,321 left</p>
-        </div>
-        <div class="card">
-          <div class="card-body">
-            <img src="../wwwroot/images/xmr.png">
-          </div>
-          <h5 class="card-title">Monero</h5>
-          <h6 class="card-subtitle text-muted">XMR</h6>
-          <p class="lead text-success">$226.50</p>
-          <p class="text-muted">70 left</p>
         </div>
       </div>
-
     </div>
-
-    <!-- Card Deck "Show More" !-->
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Show more...</a>
-      </li>
-    </ul>
     <hr/>
-    <div class="row" id="information">
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-balance-scale"></i> Recent Orders</h5>
-            <ul class="list-group">
-              <li class="list-group-item">
-                <i class="fas fa-caret-right"></i>
-                <b>Carlos</b> bought 10,222
-                <a href="#" class="badge badge-primary">Siacoin</a> for
-                <span class="text-success">$503</span>
-                <span class="text-muted float-right">12 minutes ago</span>
-              </li>
-              <li class="list-group-item">
-                <i class="fas fa-caret-right"></i>
-                <b>Ralph</b> bought 2
-                <a href="#" class="badge badge-primary">Neo</a> for
-                <span class="text-success">$213</span>
-                <span class="text-muted float-right">1 hour ago</span>
-              </li>
-              <li class="list-group-item">
-                <i class="fas fa-caret-right"></i>
-                <b>Victoria</b> bought 67
-                <a href="#" class="badge badge-primary">Ethereum</a> for
-                <span class="text-success">$44,555</span>
-                <span class="text-muted float-right">3 hours ago</span>
-              </li>
-              <li class="list-group-item">
-                <i class="fas fa-caret-right"></i>
-                <b>Maria</b> bought 41
-                <a href="#" class="badge badge-primary">Dogecoin</a> for
-                <span class="text-success">$5</span>
-                <span class="text-muted float-right">1 day ago</span>
-              </li>
-              <li class="list-group-item">
-                <i class="fas fa-caret-right"></i>
-                <b>Phillip</b> bought 12
-                <a href="#" class="badge badge-primary">Factom</a> for
-                <span class="text-success">$2204</span>
-                <span class="text-muted float-right">4 days ago</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">
-              <i class="fas fa-user"></i> New Traders</h5>
-            <ul class="list-group">
-              <li class="list-group-item">
-                <i class="fas fa-caret-right"></i>
-                <b>Carlos</b> joined Pseudocoins
-                <span class="text-muted float-right">12 minutes ago</span>
-              </li>
-              <li class="list-group-item">
-                <i class="fas fa-caret-right"></i>
-                <b>Carlos</b> joined Pseudocoins
-                <span class="text-muted float-right">12 minutes ago</span>
-              </li>
-              <li class="list-group-item">
-                <i class="fas fa-caret-right"></i>
-                <b>Carlos</b> joined Pseudocoins
-                <span class="text-muted float-right">12 minutes ago</span>
-              </li>
-              <li class="list-group-item">
-                <i class="fas fa-caret-right"></i>
-                <b>Carlos</b> joined Pseudocoins
-                <span class="text-muted float-right">12 minutes ago</span>
-              </li>
-              <li class="list-group-item">
-                <i class="fas fa-caret-right"></i>
-                <b>Carlos</b> joined Pseudocoins
-                <span class="text-muted float-right">12 minutes ago</span>
-              </li>
-            </ul>
-          </div>
-        </div>
+    <div class="row justify-content-center">
+      <div class="col-8">
+        <table class="table table-striped text-center border">
+        <thead>
+          <tr>
+            <th>Customer Name</th>
+            <th>Account Opened</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Danny Foster</td>
+            <td>March 21, 2018</td>
+            <td><a class="btn btn-danger" href="#">Delete</a></td>
+          </tr>
+          <tr>
+            <td>Danny Foster</td>
+            <td>March 21, 2018</td>
+            <td><a class="btn btn-danger" href="#">Delete</a></td>
+          </tr>
+          <tr>
+            <td>Danny Foster</td>
+            <td>March 21, 2018</td>
+            <td><a class="btn btn-danger" href="#">Delete</a></td>
+          </tr>
+          <tr>
+            <td>Danny Foster</td>
+            <td>March 21, 2018</td>
+            <td><a class="btn btn-danger" href="#">Delete</a></td>
+          </tr>
+          </tr>
+        </tbody>
+      </table>
       </div>
     </div>
+
   </div>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l"
-    crossorigin="anonymous"></script>
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c"
-    crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-</body>
-
-</html>
-
-<!-- <img src="../wwwroot/images/neo.png" alt="">
-      <img src="../wwwroot/images/icx.png" alt="">
-      <img src="../wwwroot/images/doge.png" alt="">
-      <img src="../wwwroot/images/ark.png" alt="">
-      <img src="../wwwroot/images/gas.png" alt="">
-      <img src="../wwwroot/images/fct.png" alt="">
-      <img src="../wwwroot/images/wtc.png" alt=""> -->
