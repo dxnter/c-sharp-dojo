@@ -54,7 +54,7 @@
             <i class="fas fa-user"></i> Open New Account</h5>
             <!-- New Account Form -->
             <form  asp-controller="User" asp-action="Register" class="form-inline" method="POST">
-              <input asp-for="Name" type="text" class="form-control mb-2 mr-sm-2" placeholder="Full Name" autocomplete="off">
+              <input asp-for="Name" type="text" class="form-control mb-2 mr-sm-2" placeholder="Full Name" autocomplete="off" autofocus>
               <span class="text-danger" asp-validation-for="Name"></span>
               <button type="submit" class="btn btn-block btn-primary mb-2">Add</button>
             </form>
@@ -81,7 +81,7 @@
                 <tr>
                   <td>@user.Name</td>
                   <td>@user.CreatedAt</td>
-                  <td><a class="btn btn-danger" href="#">Delete</a></td>
+                  <td><a class="btn btn-danger" href="delete/@user.UserId">Delete</a></td>
                 </tr>
               }
             }

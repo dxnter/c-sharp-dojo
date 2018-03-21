@@ -45,15 +45,6 @@
 </nav>
 <div class="container">
 
-<div class="alert alert-success alert-dismissible fade show" role="alert">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-  <h4 class="alert-heading">Welcome!</h4>
-  <p>Pseudocoins allows you to buy imaginary cryptocurrency without the ability to either sell or withdraw.</p>
-  <hr>
-  <img height="24" width="24" src="https://unpkg.com/simple-icons@latest/icons/github.svg" /> <a target="_blank" href="https://github.com/dxnter" class="align-middle homepage--account-link">@@dxnter</a>
-</div>
 <!-- Card Deck !-->
 <div class="row">
   <div class="card-deck text-center mx-auto">
@@ -172,35 +163,30 @@
         <h5 class="card-title">
           <i class="fas fa-user"></i> New Traders</h5>
         <ul class="list-group">
-          <li class="list-group-item">
-            <i class="fas fa-caret-right"></i>
-            <b>Carlos</b> joined Pseudocoins
-            <span class="text-muted float-right">12 minutes ago</span>
-          </li>
-          <li class="list-group-item">
-            <i class="fas fa-caret-right"></i>
-            <b>Carlos</b> joined Pseudocoins
-            <span class="text-muted float-right">12 minutes ago</span>
-          </li>
-          <li class="list-group-item">
-            <i class="fas fa-caret-right"></i>
-            <b>Carlos</b> joined Pseudocoins
-            <span class="text-muted float-right">12 minutes ago</span>
-          </li>
-          <li class="list-group-item">
-            <i class="fas fa-caret-right"></i>
-            <b>Carlos</b> joined Pseudocoins
-            <span class="text-muted float-right">12 minutes ago</span>
-          </li>
-          <li class="list-group-item">
-            <i class="fas fa-caret-right"></i>
-            <b>Carlos</b> joined Pseudocoins
-            <span class="text-muted float-right">12 minutes ago</span>
-          </li>
+          @{
+            if (ViewBag.Users != null) {
+              @foreach (var user in ViewBag.Users)
+              {
+                <li class="list-group-item">
+                  <i class="fas fa-caret-right"></i>
+                  <b>@user.Name</b>
+                  <span class="text-muted float-right">@user.CreatedAt.ToString("MM/dd/yyyy h:mm tt")</span>
+                </li>
+              }
+            }
+          }
         </ul>
         <a href="/accounts" class="nav-link">View all accounts</a>
       </div>
     </div>
   </div>
+</div>
+<div class="alert alert-light alert-dismissible fade show" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <p>Pseudocoins allows you to buy imaginary cryptocurrency without the ability to either sell or withdraw... quite useless.</p>
+  <hr>
+  <img height="24" width="24" src="https://unpkg.com/simple-icons@latest/icons/github.svg" /> <a target="_blank" href="https://github.com/dxnter" class="align-middle homepage--account-link">@@dxnter</a>
 </div>
 </div>

@@ -41,7 +41,18 @@ namespace weddingPlanner.Controllers {
                 _context.SaveChanges();
                 return RedirectToAction("Accounts");
             }
+            List<User> AllUsers = _context.Users.OrderByDescending(user => user.CreatedAt).ToList();
+            ViewBag.Users = AllUsers;
             return View("Accounts");
+        }
+
+        [HttpGet]
+        [Route("delete/{id}")]
+        public IActionResult Delete(int id) {
+            var currentUser = _context.Users.Where(user => user.UserId == id).First();
+            _context.Users.Remove(currentUser);
+            _context.SaveChanges();
+            return RedirectToAction("Accounts");
         }
     }
 }

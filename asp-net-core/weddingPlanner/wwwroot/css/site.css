@@ -20,8 +20,12 @@ body {
   color: #616a72;
 }
 
-.card {
+.card, .alert{
   border-top: 2px solid #403E6B !important;
+}
+
+.alert {
+  margin-top: 25px;
 }
 
 #orderBook {

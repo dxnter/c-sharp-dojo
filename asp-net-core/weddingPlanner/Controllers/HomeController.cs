@@ -30,6 +30,8 @@ namespace weddingPlanner.Controllers {
         [Route("")]
         [ImportModelState]
         public IActionResult Index() {
+            List<User> AllUsers = _context.Users.OrderByDescending(user => user.CreatedAt).Take(5).ToList();
+            ViewBag.Users = AllUsers;
             return View();
         }
 
