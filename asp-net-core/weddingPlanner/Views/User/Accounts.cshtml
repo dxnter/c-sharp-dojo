@@ -1,3 +1,5 @@
+@model weddingPlanner.Models.User
+
 <!-- Header !-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="/">
@@ -51,9 +53,10 @@
             <h5 class="card-title">
             <i class="fas fa-user"></i> Open New Account</h5>
             <!-- New Account Form -->
-            <form class="form-inline">
-              <input type="text" class="form-control mb-2 mr-sm-2" id="Name" placeholder="Full Name" autocomplete="off">
-              <button type="submit" class="btn btn-primary mb-2">Add</button>
+            <form  asp-controller="User" asp-action="Register" class="form-inline" method="POST">
+              <input asp-for="Name" type="text" class="form-control mb-2 mr-sm-2" placeholder="Full Name" autocomplete="off">
+              <span class="text-danger" asp-validation-for="Name"></span>
+              <button type="submit" class="btn btn-block btn-primary mb-2">Add</button>
             </form>
           </div>
         </div>
@@ -71,27 +74,18 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Danny Foster</td>
-            <td>March 21, 2018</td>
-            <td><a class="btn btn-danger" href="#">Delete</a></td>
-          </tr>
-          <tr>
-            <td>Danny Foster</td>
-            <td>March 21, 2018</td>
-            <td><a class="btn btn-danger" href="#">Delete</a></td>
-          </tr>
-          <tr>
-            <td>Danny Foster</td>
-            <td>March 21, 2018</td>
-            <td><a class="btn btn-danger" href="#">Delete</a></td>
-          </tr>
-          <tr>
-            <td>Danny Foster</td>
-            <td>March 21, 2018</td>
-            <td><a class="btn btn-danger" href="#">Delete</a></td>
-          </tr>
-          </tr>
+          @{
+            if (ViewBag.Users != null) {
+              @foreach (var user in ViewBag.Users)
+              {
+                <tr>
+                  <td>@user.Name</td>
+                  <td>@user.CreatedAt</td>
+                  <td><a class="btn btn-danger" href="#">Delete</a></td>
+                </tr>
+              }
+            }
+          }
         </tbody>
       </table>
       </div>

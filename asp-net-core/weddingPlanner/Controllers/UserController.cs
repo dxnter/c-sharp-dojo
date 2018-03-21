@@ -20,9 +20,27 @@ namespace weddingPlanner.Controllers {
             // Entity Framework connections
             _context = context;
         }
+
         [HttpGet]
         [Route("accounts")]
         public IActionResult Accounts() {
+            List<User> AllUsers = _context.Users.OrderByDescending(user => user.CreatedAt).ToList();
+            ViewBag.Users = AllUsers;
+            return View("Accounts");
+        }
+
+        [HttpPost]
+        [Route("register")]
+        public IActionResult Register(UserViewModel model) {
+            if (ModelState.IsValid) {
+                User newUser = new User {
+                    Name = model.Name,
+                    CreatedAt = DateTime.Now
+                };
+                _context.Add(newUser);
+                _context.SaveChanges();
+                return RedirectToAction("Accounts");
+            }
             return View("Accounts");
         }
     }

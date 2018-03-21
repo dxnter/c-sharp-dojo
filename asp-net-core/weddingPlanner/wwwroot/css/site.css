@@ -31,3 +31,9 @@ body {
 textarea {
   resize: none;
 }
+.btn-block {
+  margin-top: 16px;
+}
+small {
+  padding-bottom: 10px;
+}
