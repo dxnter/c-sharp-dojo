@@ -1,28 +1,24 @@
 using System;
 using System.Collections.Generic;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
 using System.Linq;
-using updatedLogin.Models;
-using updatedLogin.Factory;
-using updatedLogin.ActionFilters;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Newtonsoft.Json;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity;
 using System.Security.Cryptography;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Cryptography.KeyDerivation;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using updatedLogin.ActionFilters;
+using updatedLogin.Factory;
+using updatedLogin.Models;
 
-
-namespace updatedLogin.Controllers
-{
-    public class HomeController : Controller
-    {
+namespace updatedLogin.Controllers {
+    public class HomeController : Controller {
         private UpdatedLoginContext _context;
 
-        public HomeController(UpdatedLoginContext context)
-        {
+        public HomeController(UpdatedLoginContext context) {
             _context = context;
         }
 
@@ -30,8 +26,7 @@ namespace updatedLogin.Controllers
         [HttpGet]
         [Route("")]
         [ImportModelState]
-        public IActionResult Index()
-        {
+        public IActionResult Index() {
             return View();
         }
 
