@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using updatedLogin.ActionFilters;
-using updatedLogin.Factory;
 using updatedLogin.Models;
 
 namespace updatedLogin.Controllers {
@@ -20,14 +19,6 @@ namespace updatedLogin.Controllers {
 
         public HomeController(UpdatedLoginContext context) {
             _context = context;
-        }
-
-        // GET: /Home/
-        [HttpGet]
-        [Route("")]
-        [ImportModelState]
-        public IActionResult Index() {
-            return View();
         }
 
     }

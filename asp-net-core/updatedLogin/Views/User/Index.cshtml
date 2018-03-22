@@ -1,0 +1,63 @@
+@model updatedLogin.Models.UserViewModels
+
+<div id ="loginReg" class="row justify-content-center">
+
+  <!-- Register -->
+  <div class="col-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Register</h4>
+        <form asp-controller="User" asp-action="Register" method="POST">
+          <div class="form-group">
+            <label>First Name</label>
+            <input asp-for="Reg.FirstName" class="form-control" autocomplete="off"/>
+            <span asp-validation-for="Reg.FirstName" class="text-danger"></span>
+          </div>
+          <div class="form-group">
+            <label>Last Name</label>
+            <input asp-for="Reg.LastName" class="form-control" autocomplete="off"/>
+            <span asp-validation-for="Reg.LastName" class="text-danger"></span>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input asp-for="Reg.Email" class="form-control" autocomplete="off"/>
+            <span asp-validation-for="Reg.Email" class="text-danger"></span>
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input asp-for="Reg.Password" class="form-control" autocomplete="off"/>
+            <span asp-validation-for="Reg.Password" class="text-danger"></span>
+          </div>
+          <div class="form-group">
+            <label>Confirm Password</label>
+            <input asp-for="Reg.ConfirmPassword" class="form-control" autocomplete="off"/>
+            <span asp-validation-for="Reg.ConfirmPassword" class="text-danger"></span>
+          </div>
+          <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Login -->
+  <div class="col-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Login</h4>
+        <form asp-controller="User" asp-action="Login" method="POST">
+          <div class="form-group">
+            <label>Email</label>
+            <input asp-for="Login.Email" class="form-control" autocomplete="off"/>
+            <span asp-validation-for="Login.Email" class="text-danger"></span>
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input asp-for="Login.Password" class="form-control" autocomplete="off"/>
+            <span asp-validation-for="Login.Password" class="text-danger"></span>
+          </div>
+          <button type="submit" class="btn btn-primary">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
