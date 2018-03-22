@@ -1,3 +1,4 @@
+@model weddingPlanner.Models.Coin
 <!-- Header !-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <a class="navbar-brand" href="/">
@@ -52,15 +53,15 @@
             <h5 class="card-title">
             <img height="24" width="24" src="https://unpkg.com/simple-icons@latest/icons/bitcoin.svg" class="align-bottom"/> List New Coin</h5>
             <!-- Buy Order Form -->
-            <form>
+            <form asp-controller="Coin" asp-action="newCoin" method="POST">
               <div class="form-row">
                 <div class="form-group col-md-8">
                   <label>Coin Name</label>
-                  <input type="text" class="form-control">
+                  <input asp-for="Name" type="text" class="form-control">
                 </div>
                 <div class="form-group col-md-4">
                   <label>Ticker</label>
-                  <input type="text" class="form-control">
+                  <input asp-for="Ticker" type="text" class="form-control">
                 </div>
               </div>
               <small class="form-text text-muted">Visit <a class="homepage--account-link" href="https://coinmarketcap.com/" target="_blank">CoinMarketCap</a> for assistance</small>
@@ -71,20 +72,20 @@
                     <div class="input-group-prepend">
                       <div class="input-group-text">$</div>
                     </div>
-                    <input type="number" class="form-control">
+                    <input asp-for="Price" type="number" class="form-control">
                   </div>
                 </div>
                 <div class="form-group col-md-6">
                   <label>Initial Supply</label>
-                  <input type="number" class="form-control">
+                  <input asp-for="Supply" type="number" class="form-control">
                 </div>
               </div>
               <div class="form-group">
                 <label>Description</label>
-                <textarea class="form-control" rows="3"></textarea>
+                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
               </div>
               <div class="custom-file">
-                <input type="file" class="custom-file-input" id="customFile">
+                <input type="text" class="custom-file-input" id="customFile">
                 <label class="custom-file-label" for="customFile">Icon</label>
               </div>
               <div class="form-group">

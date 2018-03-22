@@ -15,7 +15,6 @@ namespace weddingPlanner.Controllers {
     public class UserController : Controller {
         // Entity PostGres Code First connection
         private WeddingPlannerContext _context;
-
         public UserController(WeddingPlannerContext context) {
             // Entity Framework connections
             _context = context;
@@ -32,17 +31,22 @@ namespace weddingPlanner.Controllers {
         [HttpPost]
         [Route("register")]
         public IActionResult Register(UserViewModel model) {
-            if (ModelState.IsValid) {
-                User newUser = new User {
-                    Name = model.Name,
-                    CreatedAt = DateTime.Now
-                };
-                _context.Add(newUser);
-                _context.SaveChanges();
-                return RedirectToAction("Accounts");
-            }
             List<User> AllUsers = _context.Users.OrderByDescending(user => user.CreatedAt).ToList();
             ViewBag.Users = AllUsers;
+            if (ModelState.IsValid) {
+                if (_context.Users.Any(user => String.Equals(user.Name, model.Name, StringComparison.CurrentCultureIgnoreCase))) {
+                    ViewBag.userExists = "A user with this name already exists";
+                    return View("Accounts");
+                } else {
+                    User newUser = new User {
+                        Name = model.Name,
+                        CreatedAt = DateTime.Now
+                    };
+                    _context.Add(newUser);
+                    _context.SaveChanges();
+                    return RedirectToAction("Accounts");
+                }
+            }
             return View("Accounts");
         }
 

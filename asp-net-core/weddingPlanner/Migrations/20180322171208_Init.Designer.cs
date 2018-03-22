@@ -11,8 +11,8 @@ using weddingPlanner.Models;
 namespace weddingPlanner.Migrations
 {
     [DbContext(typeof(WeddingPlannerContext))]
-    [Migration("20180321185211_FirstMigration")]
-    partial class FirstMigration
+    [Migration("20180322171208_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,12 +21,38 @@ namespace weddingPlanner.Migrations
                 .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn)
                 .HasAnnotation("ProductVersion", "2.0.0-rtm-26452");
 
+            modelBuilder.Entity("weddingPlanner.Models.Coin", b =>
+                {
+                    b.Property<int>("CoinID")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<DateTime>("CreatedAt");
+
+                    b.Property<string>("Description");
+
+                    b.Property<string>("ImageURL");
+
+                    b.Property<string>("Name");
+
+                    b.Property<int>("Price");
+
+                    b.Property<int>("Supply");
+
+                    b.Property<string>("Ticker");
+
+                    b.HasKey("CoinID");
+
+                    b.ToTable("Coins");
+                });
+
             modelBuilder.Entity("weddingPlanner.Models.User", b =>
                 {
                     b.Property<int>("UserId")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("name");
+                    b.Property<DateTime>("CreatedAt");
+
+                    b.Property<string>("Name");
 
                     b.HasKey("UserId");
 

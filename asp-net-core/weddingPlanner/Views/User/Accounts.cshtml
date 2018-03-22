@@ -54,8 +54,13 @@
             <i class="fas fa-user"></i> Open New Account</h5>
             <!-- New Account Form -->
             <form  asp-controller="User" asp-action="Register" class="form-inline" method="POST">
-              <input asp-for="Name" type="text" class="form-control mb-2 mr-sm-2" placeholder="Full Name" autocomplete="off" autofocus>
+              <input asp-for="Name" type="text" class="form-control" placeholder="Full Name" autocomplete="off" autofocus>
               <span class="text-danger" asp-validation-for="Name"></span>
+              @{
+                if (ViewBag.userExists != null) {
+                  <span class="text-danger">@ViewBag.userExists</span>
+                }
+              }
               <button type="submit" class="btn btn-block btn-primary mb-2">Add</button>
             </form>
           </div>

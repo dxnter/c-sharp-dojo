@@ -32,5 +32,13 @@ namespace weddingPlanner.Controllers {
         public IActionResult Index() {
             return View("Coins");
         }
+
+        [HttpPost]
+        [Route("newCoin")]
+        public IActionResult newCoin(Coin newCoin) {
+            _context.Add(newCoin);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
