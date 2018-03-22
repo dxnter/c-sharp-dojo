@@ -17,9 +17,7 @@ namespace updatedLogin.Controllers {
   public class UserController : Controller {
     private UpdatedLoginContext _context;
 
-    public UserController(UpdatedLoginContext context) {
-      _context = context;
-    }
+    public UserController(UpdatedLoginContext context) => _context = context;
 
     /** Register/Login GET method */
     [HttpGet]

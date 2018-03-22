@@ -17,9 +17,7 @@ namespace updatedLogin.Controllers {
     public class HomeController : Controller {
         private UpdatedLoginContext _context;
 
-        public HomeController(UpdatedLoginContext context) {
-            _context = context;
-        }
+        public HomeController(UpdatedLoginContext context) => _context = context;
 
     }
 }
